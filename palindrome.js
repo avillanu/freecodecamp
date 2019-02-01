@@ -10,13 +10,10 @@ function palindrome(str) {
     var second = str.pop();
     if (first !== second){
       var counter = -1;
-      console.log(first);
-      console.log(second);
     }
   } 
 
   if (counter == -1){
-    console.log("returned false");
     return false;
   }
   return true;
